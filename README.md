@@ -5,7 +5,7 @@
 Soluciones de diferentes tipos: validaciones, galerias y calculadora mediante javaScript.
 A continuacion los resultados:
 
-Validaciones
+## Validaciones
 
 ![1](https://github.com/jcallec7/Practica03-Javascript/blob/master/captures/1.png)
 ![2](https://github.com/jcallec7/Practica03-Javascript/blob/master/captures/2.png)
@@ -14,13 +14,13 @@ Validaciones
 ![5](https://github.com/jcallec7/Practica03-Javascript/blob/master/captures/5.png)
 ![6](https://github.com/jcallec7/Practica03-Javascript/blob/master/captures/6.png)
 
-Galeria
+## Galeria
 
 ![7](https://github.com/jcallec7/Practica03-Javascript/blob/master/captures/7.png)
 ![8](https://github.com/jcallec7/Practica03-Javascript/blob/master/captures/8.png)
 ![9](https://github.com/jcallec7/Practica03-Javascript/blob/master/captures/9.png)
 
-Calculadora
+## Calculadora
 
 ![10](https://github.com/jcallec7/Practica03-Javascript/blob/master/captures/10.png)
 ![10](https://github.com/jcallec7/Practica03-Javascript/blob/master/captures/11.png)
