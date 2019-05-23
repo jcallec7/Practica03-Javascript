@@ -2,7 +2,7 @@
 
 ## INFORME
 
-Soluciones de diferentes tipos, validaciones, galerias y calculadora mediante javaScript.
+Soluciones de diferentes tipos: validaciones, galerias y calculadora mediante javaScript.
 A continuacion los resultados:
 
 Validaciones
