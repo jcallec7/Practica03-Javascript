@@ -1,0 +1,71 @@
+<!DOCTYPE html  >
+<html>
+<head>
+<title>Calculadora</title> 
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="CSS/index.css" />
+<script type="text/javascript" src="calculadora.js"></script>
+</head>
+<body>
+</p>
+
+
+<form name="calculator">
+<tr><td>
+<tr><td>
+<table class="calculadora" cellpadding=0>
+<tr><td  ><span>Calculadora</span></td></tr>
+<tr><td>
+<table class="calculadora" width="100%">
+<tr><td colspan=6><input type="text" name="answer" size=30 maxlength=30 onChange="setNum(this.value)" class="calculadora3"></td></tr>
+<tr><td colspan=6>
+<table cellpadding=0>
+<tr><td>
+
+
+<input type="button" name="sqrt" value="   √  " onClick="raiz(); return false;">
+<input type="button" name="percent" value=" %  " onClick="porcentaje(); return false;">
+<input type="button" name="recip" value="1/x " onClick="divUno(); return false;">
+<input type="button" name="cuadra" value="   ²  " onClick="cuadrado(); return false;">
+<br>
+
+<input type="button" name="CE"  value=" CE " onClick="borrado();  return false;"> 
+<input type="reset" name="C" value="  C  " onClick="borrado(); return false;">
+<input type="reset" name="C" value=" R   " onClick="borrado(); return false;">
+<input type="button" name="divide" value="  /  " onClick="division(1); return false;">
+
+<br>
+
+<input type="button" name="n7" value="  7  " onClick="setNum('7'); return false;">
+<input type="button" name="n8" value="  8  " onClick="setNum('8'); return false;">
+<input type="button" name="n9" value="  9  " onClick="setNum('9'); return false;">
+<input type="button" name="multiply" value="  *  " onClick="multi(1); return false;">
+<br>
+
+
+<input type="button" name="n4" value="  4  " onClick="setNum('4'); return false;">
+<input type="button" name="n5" value="  5  " onClick="setNum('5'); return false;">
+<input type="button" name="n6" value="  6  " onClick="setNum('6'); return false;">
+<input type="button" name="minus" value="  -  " onClick="resta(); return false;">
+<br>
+
+
+
+
+<input type="button" name="n1" value="  1  " onClick="setNum('1'); return false;">
+<input type="button" name="n2" value="  2  " onClick="setNum('2'); return false;">
+<input type="button" name="n3" value="  3  " onClick="setNum('3'); return false;">
+<input type="button" name="plus" value=" +  " onClick="suma(1); return false;">
+<br>
+
+<input type="button" name="negate" value="+/- " onClick="negativo(); return false;">
+<input type="button" name="n0" value="  0  " onClick="setNum('0'); return false;">
+<input type="button" name="dot" value="  .   " onClick="setNum('.'); return false;">
+<input type="button" name="equal" value="  =   " onClick="igual(); return false;">
+
+
+</form>
+
+</body>
+
+</html>
