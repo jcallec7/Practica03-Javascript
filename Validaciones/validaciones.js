@@ -64,12 +64,16 @@ function validarCamposObligatorios(){
 
 } 
 
+var cont = 0
+
 function validarLetras(elemento) {
+
+    var bandera = false
 
     key=elemento.keyCode || elemento.which
 
     teclado=String.fromCharCode(key).toLowerCase()
-
+    espacio=" "
     letras="qwertyuiopasdfghjklñzxcvbnm "
 
     especiales="8-37-38-46-164"
@@ -83,9 +87,28 @@ function validarLetras(elemento) {
         }
     }
 
-    if(letras.indexOf(teclado)==-1 && !teclado_especial){
-        return false
+    if(espacio.indexOf(teclado)!=-1){
+        cont = cont+1;
     }
+
+    if(cont >= 2){
+        bandera = true
+    }
+
+
+    if (!bandera){
+
+        if(letras.indexOf(teclado)==-1 && !teclado_especial){
+            return false
+        }
+
+    }else{
+
+        return false
+
+    }
+
+    
 }
 
 function validarNumeros(elemento) {
