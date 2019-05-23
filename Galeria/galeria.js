@@ -25,7 +25,7 @@ var nuevo = 0;
    function next(){
         if(contmax<10){
             contmax=contmax+2;
-           // alert(imagenes[contmax]);
+           
             document.getElementById('imagen').src =imagenes[nuevo[contmax]];
         }
         else
